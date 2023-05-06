@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo-counteiner{
+    max-width: 1550px;
+    justify-content: space-between;
+    align-items: center;    
+    
+    
+}
+.col{
+    display: flex;
+    margin-right: 30px;
+}
+.img{
+    margin-right: 30px;
+}
+    
+.logo{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    display: flex;
+    
+}
+.click{
+    border-radius: 100px;
+    width: 41px;
+    height: 41px;  
+    margin-left: 50px;
+    display: flex;
+    
+}
+.row{
+
+    background: url("https://bmw.scene7.com/is/image/BMW/UC_KV:2to1?fmt=webp&wid=1504&hei=750");
+    height: 700px;
+
+}
+.mains{
+    display: flex;
+    align-items: flex-start(default);
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 350px;
+
+
+}
+.one{
+    border-radius: 20px ;
+    width: 20px;
+}
+.one :hover{
+    color: red;
+}
+.two{
+    border-radius: 20px ;
+    width: 20px;
+}
+.two :hover{
+    border-radius: 20px ;
+    width: 20px;
+}
+.three{
+    border-radius: 20px ;
+    width: 20px;
+}
+.three :hover{
+    border-radius: 20px ;
+    width: 20px;
+}
+.four{
+    border-radius: 20px ;
+    width: 20px;
+}
+.four :hover{
+    border-radius: 20px ;
+    width: 20px;
+}
