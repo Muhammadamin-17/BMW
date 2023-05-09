@@ -12,10 +12,10 @@ body{
 }
 .col{
     display: flex;
-    margin-right: 30px;
 }
 .img{
-    margin-right: 30px;
+    margin-left: 85px;
+    margin-top: 10px;
 }
     
 .logo{
@@ -43,12 +43,23 @@ body{
 }
 .mains{
     display: flex;
-    align-items: flex-start(default);
-    justify-content: space-evenly;
-    margin-left: 150px;
-    margin-right: 350px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 30px;
+    gap: 3rem;
+}
+.main:hover{
+    margin-top: 10px;
+    transition: 1s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
 
-
+.zero{
+    margin-top: 30px;
+    margin-left: 300px;
 }
 .one{
     border-radius: 20px ;
@@ -80,4 +91,18 @@ body{
 .four :hover{
     border-radius: 20px ;
     width: 20px;
+}
+.line{
+    width: 90%;
+    height: 0.2px;
+    display: flex;
+}
+.icon_container{
+    gap: 1rem;
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 400px;
+    justify-content: space-between;
+
 }
